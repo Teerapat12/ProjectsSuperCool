@@ -1,0 +1,11 @@
+# This document contains basic commands to use git on the command-line, shell, terminal.
+
+#downloading a repository from git 
+git clone "project_to_download"
+
+#create a new branch 
+git checkout -b "new_branch_name"
+
+#how many branches are existing and in which branch am I atm 
+git branch 
+
