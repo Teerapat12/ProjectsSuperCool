@@ -1,0 +1,37 @@
+# show all running contrainers
+
+docker ps
+
+# show all docker images available on your machine 
+
+docker images
+
+# remove a docker image
+
+docker rmi <image ID> (you can find the image id in docker images)
+
+# save changes you made in your docker immage
+
+docker commit <docker image ID>
+
+# run a docker image
+
+docker run <image/name/id>
+
+# build a docker image
+
+docker build <image ID or name>
+
+#pull a docker image from a repository
+
+docker pull <image ID>
+
+# login to docker to push your docker image to your docker repository
+
+docker login 
+
+#push the changes of your docker image or even a new create docker image to your repository
+
+docker push <username>/<name_of_docker_image>
+
+

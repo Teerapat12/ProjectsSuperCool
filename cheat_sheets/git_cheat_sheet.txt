@@ -7,7 +7,11 @@ git clone "project_to_download"
 git checkout -b "new_branch_name"
 
 #how many branches are existing and in which branch am I atm 
-git branch 
+git branch
+ 
+#git see all remote branches
+
+git branch -a 
 
 #pushing the new created branch into the repository
 
