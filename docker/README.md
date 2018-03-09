@@ -18,8 +18,23 @@ This will be a experimental docker project form Leonard and Terrapat.
 
 09. You can also already availble pull image from docker hub websites with "docker pull <NAME>" 
 
-10. "docker rmi <IMAGE_ID>" to delete the docker image. use "-f" tag if there are some container using that image.
+10. "docker rmi <IMAGE_ID>" to delete the docker image. use "-f"(for force) tag if there are some container using that image.
 
-Reference
+11. After commiting your docker container and get the new image, you can push the image in your own docker repository (docker cloud)
+	- docker login and have to be registered at docker.com
+	- docker tag <IMAGE_NAME> <DOCKER_ID_UESR>/<RepositoryName>
+	- docker push <DOCKER_ID_USER>/<RepositoryName>
+12. You can also pull your repository. Use "docker pull <DOCKER_ID_UESR>/<RepositroyName>" to get your image locally.
 
-https://www.ibm.com/developerworks/community/blogs/8ff122ba-5fbc-4844-8f62-340d437131ee/entry/How_to_build_your_own_Apache_HTTP_server_on_Docker?lang=end 
+13. Then "docker run -ti <IMAGE_ID>" to run the docker container.
+
+14. When not the whole docker image were uploaded and only were the docker file, use docker build -t <REPOSITORY_NAME> .
+
+15. Docker pull will get you the docker image for you, so just use docker run on docker image to run it.
+
+
+# Reference Links: 
+
+- https://www.ibm.com/developerworks/community/blogs/8ff122ba-5fbc-4844-8f62-340d437131ee/entry/How_to_build_your_own_Apache_HTTP_server_on_Docker?lang=end 
+
+- https://docs.docker.com/engine/reference/run/
