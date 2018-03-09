@@ -22,3 +22,10 @@ git push -u origin "the_name_of_the_new_created_branch"
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 
+# show last commit etc 
+
+git log
+
+# WARNING this will delete also all the changes of the commit, reset you commit and also all the changes you made
+
+git reset --hard <commit_hash>
