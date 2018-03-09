@@ -35,6 +35,14 @@ This will be a experimental docker project form Leonard and Terrapat.
 
 # Reference Links: 
 
+For pulling an image
+
 - https://www.ibm.com/developerworks/community/blogs/8ff122ba-5fbc-4844-8f62-340d437131ee/entry/How_to_build_your_own_Apache_HTTP_server_on_Docker?lang=end 
 
+For running image.
+
 - https://docs.docker.com/engine/reference/run/
+
+For pushing images
+
+- https://docs.docker.com/docker-cloud/builds/push-images/
