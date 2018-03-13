@@ -46,3 +46,10 @@ For running image.
 For pushing images
 
 - https://docs.docker.com/docker-cloud/builds/push-images/
+
+
+HINTS:
+
+Sometimes when you want to update your repo or pull the image again it could be that docker says that the image already exist even if you tried to delete it before.
+--> try "docker ps -a" if there are still containers running in the backround with the image
+--> removing all existing containers "docker rm $(docker ps -aq)"
